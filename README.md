@@ -89,14 +89,6 @@ The Command Service handles commands associated with platforms. It includes:
    - Platform Service: `http://localhost:{port}/swagger`
    - Command Service: `http://localhost:{port}/swagger`
 
-## API Security
-
-Both services implement JWT Bearer token authentication. To access the APIs:
-
-1. Obtain a JWT token
-2. Include the token in the Authorization header
-3. Use the Swagger UI to test endpoints with the "Authorize" button
-
 ## Error Handling
 
 The services implement:
